@@ -30,8 +30,8 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: .
-          file: ./Dockerfile
+          context: ./docker        # This is where your Dockerfile & html are
+          file: ./docker/Dockerfile
           push: true
           tags: |
             meltdown800/anime-site:latest
