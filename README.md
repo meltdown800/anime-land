@@ -1,6 +1,7 @@
 # 🌐 Anime Site - Docker Setup
 
 A simple static website hosted inside a Docker container using **nginx** on an **Ubuntu Server** VM.
+This is just a test and won't be extended anymore. 
 
 ---
 
